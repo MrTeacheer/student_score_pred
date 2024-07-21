@@ -1,8 +1,0 @@
-version: '3'
-services:
-  score_predict:
-    build:
-      context: Django
-    command: sh -c 'python manage.py runserver 0.0.0.0:8000'
-    ports:
-      - '8001:8000'
